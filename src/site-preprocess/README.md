@@ -8,9 +8,9 @@
 ![Maven Central](https://img.shields.io/maven-central/v/org.isomorf/foundation-runtime-natives_2.12.svg?style=for-the-badge)
 
 ```scala
-libraryDependencies += "org.isomorf" %% "foundation-runtime-natives" % "0.1.0-SNAPSHOT"
+libraryDependencies += "org.isomorf" %% "foundation-runtime-natives" % "@VERSION@"
 ```
 
 ## Documentation
 
-[scaladocs](http://isomorf-org.github.io/scala-foundation-runtime-natives/scaladocs/api/0.1.0-SNAPSHOT/org/isomorf/foundation/runtime/natives/index.html)
+[scaladocs](http://isomorf-org.github.io/scala-foundation-runtime-natives/scaladocs/api/@VERSION@/org/isomorf/foundation/runtime/natives/index.html)
