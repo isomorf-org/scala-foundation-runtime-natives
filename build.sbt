@@ -32,6 +32,8 @@ val crossScalaVersionsGlobal = Seq("2.11.11", scalaVersionGlobal)
 
 crossScalaVersions := crossScalaVersionsGlobal
 
+libraryDependencies in ThisBuild += "org.isomorf" %%% "foundation-runtime-pure" % "0.5.2"
+
 val commonSettings = Seq(
   organization := organizationGlobal,
   name         := "foundation-runtime-natives",
@@ -85,7 +87,8 @@ val publishingSettings = Seq(
 )
 
 val eclipseSettings = Seq(
-  EclipseKeys.withSource := true
+  EclipseKeys.withSource := true,
+  EclipseKeys.eclipseOutput := Some("./etarget"),
   //,
   //EclipseKeys.useProjectId := true
 )
